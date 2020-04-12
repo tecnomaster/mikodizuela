@@ -1,0 +1,15 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mikodizuela" name="Mi Kodizuela official Repo" version="0.0.1" provider-name="MiKodizuela">
+	<extension point="xbmc.addon.repository" name="Mi Kodizuela official Repo">
+		<info compressed="false">https://raw.githubusercontent.com/tecnomaster/mikodizuela/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/tecnomaster/mikodizuela/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/tecnomaster/mikodizuela/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Mi Kodizuela official Repo</summary>
+   		<description lang="en">Instala el Addon Mi Kodizuela.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
