@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.mikodizuela" name="Mi Kodizuela" version="0.0.4" provider-name="TecnoDaniel">
+     <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" />
+	<import addon="script.module.resolveurl" optional="true"/>
+	<import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Contenidos generados por Venezolanos para el mundo</summary>
+        <description>En este addon encontraras videos creados por venezolanos para todo el mundo, incluyendo humor, documentales, recuerdos y mucho mas de la Venezuela que todos queremos y que pronto tendra de nuevo su libertad.</description>
+    </extension>
+</addon>
+
+<addon id="repository.mikodizuela" name="Mi Kodizuela official Repo" version="0.0.1" provider-name="MiKodizuela">
+	<extension point="xbmc.addon.repository" name="Mi Kodizuela official Repo">
+		<info compressed="false">https://raw.githubusercontent.com/tecnomaster/mikodizuela/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/tecnomaster/mikodizuela/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/tecnomaster/mikodizuela/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Mi Kodizuela official Repo</summary>
+   		<description lang="en">Instala el Addon Mi Kodizuela.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
