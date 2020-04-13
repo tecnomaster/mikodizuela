@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.mikodizuela" name="Mi Kodizuela" version="0.0.4" provider-name="TecnoDaniel">
+<addon id="plugin.video.mikodizuela" name="Mi Kodizuela" version="0.0.5" provider-name="TecnoDaniel">
      <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -23,6 +23,6 @@
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary>Contenidos generados por Venezolanos para el mundo</summary>
-        <description>En este addon encontraras videos creados por venezolanos para todo el mundo, incluyendo humor, documentales, recuerdos y mucho mas de la Venezuela que todos queremos y que pronto tendra de nuevo su libertad.</description>
+        <description>En este addon encontraras videos creados por venezolanos para todo el mundo, incluyendo humor, documentales, recuerdos y mucho mas de la Venezuela que todos queremos y que pronto tendra de nuevo su libertad. Este addon no almacena ningún video. Todos los enlaces asociados a estos videos son de acceso público en Internet. Este addon fué creado con la herramienta Addon Creator generada por Titan y es mantenida por el equipo de Mi Kodizuela. Para cualquier duda puedes visitar nuestro canal de Telegram (https://t.me/mikodizuela). Que lo disfrutes!.</description>
     </extension>
 </addon>
